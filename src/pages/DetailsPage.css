@@ -1,0 +1,19 @@
+.details-main{padding:2rem 1.5rem}
+.back-btn{background:0;border:0;color:var(--text-muted);cursor:pointer;margin-bottom:1rem}
+.details-grid{display:grid;grid-template-columns:300px 1fr;gap:1.5rem}
+@media(max-width:900px){.details-grid{grid-template-columns:1fr}}
+.details-profile h2{font-size:1.3rem;margin-bottom:.25rem}
+.role{color:var(--text-muted);margin-bottom:1rem}
+.quick-info{display:flex;flex-direction:column;gap:.5rem;margin-bottom:1rem}
+.camera-section{border-top:1px solid var(--border);padding-top:1rem}
+.camera-section h3{margin-bottom:.75rem}
+.camera-controls{display:flex;gap:.5rem}
+.camera-container{position:relative;overflow:hidden;aspect-ratio:16/9;padding:0}
+.camera-container video{width:100%;height:100%;object-fit:cover}
+.countdown{position:absolute;inset:0;display:flex;align-items:center;justify-content:center;font-size:4rem;font-weight:900;color:#fff;text-shadow:0 0 20px #000}
+.camera-error{color:#f87171;font-size:.85rem;margin-top:.5rem}
+.details-info h3{margin-bottom:1rem}
+.info-grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(200px,1fr));gap:.75rem}
+.info-grid>div{background:var(--bg-card2);padding:.75rem;border-radius:8px}
+.info-grid>div span:first-child{display:block;font-size:.75rem;color:var(--text-dim);margin-bottom:.25rem}
+.details-empty{flex:1;display:flex;flex-direction:column;align-items:center;gap:1rem;padding:3rem}

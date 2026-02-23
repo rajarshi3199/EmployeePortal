@@ -1,0 +1,4 @@
+.map-main{padding:2rem 1.5rem}
+.back-btn{background:0;border:0;color:var(--text-muted);cursor:pointer;margin-bottom:1rem}
+.map-wrap{padding:0;overflow:hidden}
+.map-loading,.map-empty{display:flex;justify-content:center;padding:3rem;color:var(--text-muted)}
